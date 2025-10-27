@@ -1,7 +1,7 @@
 # Agri-Interactive Form: A Modern Registration Tool with Agricultural Flair
 
 ## Overview
-This is a responsive, interactive registration form built with HTML, CSS, and JavaScript. It's designed for an agricultural community signup, featuring real-time validation for name, email, phone, and password fields. Errors appear dynamically, and valid submissions trigger a success message—all without page reloads. The earthy green theme and smooth animations make it user-friendly and visually appealing.
+This is a responsive, interactive registration form built with HTML, CSS, and JavaScript. It's designed for an agricultural community signup, featuring real-time validation for name, email, phone, and password fields. Errors appear dynamically, and valid submissions trigger a success message—all without page reloads. The earthy green theme and smooth animations make it user-friendly and visually appealing. Compact, responsive design for different screen sizes.
 
 *Key Features:*
 - Real-time input validation (e.g., email regex, strong password rules).
