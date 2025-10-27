@@ -3,17 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+   
 }
 
 body {
+     font-family: 'Arial', sans-serif;
     background: linear-gradient(to bottom, #e8f5e9, #c8e6c9); 
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     padding: 20px;
-    width: 100%;
     overflow-x: hidden;
 }
 
@@ -116,11 +116,11 @@ button:active {
 }
 
 /* Responsive design */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .form-container {
         padding: 1rem;
-        max-width: min(400px, 95%);
-        margin: 10px;
+        max-width: 95%;
+        
     }
 
     h1 {
@@ -133,27 +133,27 @@ button:active {
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 601px) and (max-width: 1024px) {
     .form-container {
         max-width: 80%;
-        padding: 20px;
+        padding: 1.5rem;
     }
     input, button {
         font-size: 15px;
         padding: 11px;
     }
-    h2 {
+    h1 {
         font-size: 28px;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 1025px)  {
     .form-container {
-        max-width: 500px;
-        padding: 25px;
+        max-width: 80%;
+        padding: 2rem;
     }
 
-    h2 {
+    h1 {
         font-size: 28px;
     }
 }
