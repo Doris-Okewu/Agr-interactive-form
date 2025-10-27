@@ -10,7 +10,7 @@ This is a responsive, interactive registration form built with HTML, CSS, and Ja
 - Agricultural theme inspired by my farming background—perfect for farm co-ops or ag-tech platforms.
 
 ## Demo
-[Live Preview](https://Doris-Okewu.github.io/Agri-interactive-form/) 
+[Live Preview](https://Doris-Okewu.github.io/Agr-interactive-form/) 
 
 ## Tech Stack
 - *HTML5* for structure.
@@ -18,7 +18,7 @@ This is a responsive, interactive registration form built with HTML, CSS, and Ja
 - *Vanilla JavaScript* for validation and event handling.
 
 ## Installation & Run
-1. Clone the repo: git clone https://github.com/Doris-Okewu/Agri-interactive-form.git
+1. Clone the repo: git clone https://github.com/Doris-Okewu/Agr-interactive-form.git
 2. Open index.html in a browser.
 
 ## Why This Project?

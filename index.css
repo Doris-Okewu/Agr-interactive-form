@@ -113,6 +113,33 @@ button:active {
 }
 
 /* Responsive design */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        max-width: 700px;
+        padding: 25px;
+    }
+    input, button {
+        font-size: 16px;
+        padding: 12px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .container {
+        max-width: 800px;
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
+
+
+
 @media (max-width: 480px) {
     .form-container {
         padding: 1.5rem;
