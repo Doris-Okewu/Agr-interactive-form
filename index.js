@@ -45,7 +45,7 @@ function validateField(input) {
             return false;
         }
     } else if (input.id === 'password') {
-        const passwordRegex = /^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%?&]{8,}$/;
+        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%?&])[A-Za-z\d@$!%?&]{8,}$/;
         if (value === '') {
             showError(input, errorElement, 'Password is required');
             return false;
