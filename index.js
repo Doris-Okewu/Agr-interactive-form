@@ -1,11 +1,11 @@
 document.getElementById('registrationForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form submission
+    event.preventDefault(); 
     if (validateForm()) {
         showSuccessMessage();
     }
 });
 
-// Real-time validation on input
+// validation on input
 const inputs = document.querySelectorAll('input');
 inputs.forEach(input => {
     input.addEventListener('input', () => validateField(input));
@@ -22,8 +22,8 @@ function validateField(input) {
         if (value === '') {
             showError(input, errorElement, 'Name is required');
             return false;
-        } else if (!/^[a-zA-Z\s]{2,}$/.test(value)) {
-            showError(input, errorElement, 'Name must be at least 2 characters and contain only letters');
+        } else if (!/^[a-zA-Z]+(?:\s[A-Za-z]+)$/.test(value)) {
+            showError(input, errorElement, 'Please enter your first and last name (letters only).');
             return false;
         }
     } else if (input.id === 'email') {
@@ -62,7 +62,7 @@ function validateForm() {
     let isValid = true;
     inputs.forEach(input => {
         if (!validateField(input)) {
-            isValid = true;
+            isValid = false;
         }
     });
     return isValid;
@@ -94,5 +94,4 @@ style.innerHTML = `
     }
 `;
 document.head.appendChild(style);
-
 
